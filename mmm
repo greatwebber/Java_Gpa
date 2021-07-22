@@ -1,0 +1,84 @@
+import java.util.*;
+public class MyClass {
+    public static void main(String args[]) {
+     Scanner Input = new Scanner(System.in);
+     String FirstName, SecondName, MatricNum;
+     
+     System.out.println("Enter Your First Name: ");
+     FirstName = Input.nextLine();
+     
+     System.out.println("Enter Your Second Name: ");
+     SecondName = Input.nextLine();
+     
+     System.out.println("Enter Your Matric No: ");
+     MatricNum = Input.nextLine();
+     
+     int[] CourseCode = {1,2,3,4,5,6,7};
+     
+     System.out.println("Enter Your COM121 Score : ");
+     CourseCode[0] = Input.nextInt();
+     
+    //  System.out.println("Enter Your COM122 Score : ");
+    //  CourseCode[1] = Input.nextInt();
+     
+    //  System.out.println("Enter Your COM123 Score : ");
+    //  CourseCode[2] = Input.nextInt();
+     
+    //  System.out.println("Enter Your COM124 Score : ");
+    //  CourseCode[3] = Input.nextInt();
+     
+    //  System.out.println("Enter Your COM125 Score : ");
+    //  CourseCode[4] = Input.nextInt();
+     
+    //  System.out.println("Enter Your COM126 Score : ");
+    //  CourseCode[5] = Input.nextInt();
+     
+    //  System.out.println("Enter Your COM127 Score : ");
+    //  CourseCode[6] = Input.nextInt();
+     
+     if(CourseCode[0] < 40){
+         System.out.println("Your Grade is"+ " "+ "F");
+     }
+     
+     
+    //  if(MatricNum < 40){
+    //      System.out.println("Your Score is ")
+    //  }
+     
+    }
+}
+
+
+
+
+
+//
+
+import java.util.*;
+public class MyClass {
+    public static void main(String args[]) {
+     Scanner Input = new Scanner(System.in);
+     String FirstName, SecondName, MatricNum;
+     int userInput;
+       //Enter Your Name
+     System.out.println("Enter Your First Name: ");
+     FirstName = Input.nextLine();
+      //Enter Your Second Name
+     System.out.println("Enter Your Second Name: ");
+     SecondName = Input.nextLine();
+      //Enter Matric No
+     System.out.println("Enter Your Matric No: ");
+     MatricNum = Input.nextLine();
+     
+     
+     String [] arrEx = {"COM121", "Sara", "Matt", "Anna", "Sofie"};
+        // Declare scanner objects to save input
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter Score For COM121");
+        // Saves the integer the user enters
+        userInput = in.nextInt();
+        // Calls the method
+        System.out.println(arrEx[userInput]);
+    
+    }
+}
